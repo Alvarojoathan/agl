@@ -2,8 +2,11 @@ Essa é uma pequena biblioteca que eu escrevi a muito tempo atrás em J2ME, com
 o objetivo de facilitar o desenvolvimento de jogos nessa plataforma. Ela é
 criada sobre ScreenTrace, outra biblioteca que criei para J2ME.
 
-AGL tenta criar uma arvore de objetos ao qual novos objetos são adicionados
-com a função addChild.
+AGL tenta criar uma arvore de objetos ao qual novos objetos são
+adicionados/removidos com a função addChild, além de oferecer métodos que serão
+chamados em momentos especificos: como em resposta a uma ação do usuário,
+periódicamente para atualização do objeto ou em resposta a um evento iniciado
+por um outro objeto.
 
 Estou colocando no github para evitar perder isso no futuro, e na esperança
 que seja util para alguém que precise reviver essa tecnologia ou precise de
